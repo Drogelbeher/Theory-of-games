@@ -1,4 +1,4 @@
-inport time
+import time
 import random
 from math import sqrt
 def generator(p):
