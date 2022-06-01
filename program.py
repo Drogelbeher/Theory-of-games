@@ -1,3 +1,4 @@
+inport time
 import random
 from math import sqrt
 def generator(p):
@@ -144,4 +145,4 @@ print("Математическое ожидание: ", math_exp(p1,p2))
 print("Эксперементальное среднее квадратичное отклонение: ", msq(game_5,sum_5))
 print("Дисперсия: ", disp(p1,p2))
 print("Теоретическое среднее квадратичное отклонение: ", sqrt(disp(p1,p2)))
-
+time.sleep(120)
